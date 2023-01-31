@@ -1,0 +1,55 @@
+header {
+  background-color: var(--violet-clair);
+  min-height: 100vh;
+  text-align: right;
+  margin-top: 62px;
+  position: relative;
+}
+
+
+.avatar {
+  width: 36vw;
+  position: absolute;
+  bottom: 0;
+  margin-left: 5em;
+}
+
+img {
+  width: 100%;
+}
+
+.nom {
+  font-size: 5em;
+  font-family: 'Poetsen';
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+  text-align: right;
+}
+
+.metier {
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 1.5e
+}
+
+.reseaux-sociaux img {
+  box-shadow: 0 8px 5px -2px rgba(0, 0, 0, .2);
+}
+
+.svg {
+  width: 40px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 2px ridge white;
+}
+
+.presentation {
+  margin-right: 10%;
+  padding-top: 10%;
+}
+
+@media (max-width: 1300px) {
+  header {
+    margin-top: 0;
+  }
+}

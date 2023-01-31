@@ -1,0 +1,40 @@
+footer {
+  text-align: center;
+  color: white;
+  min-height: 200px;
+  padding: 2.5em;
+  position: relative;
+}
+.footer-shape-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.footer-shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 99px;
+}
+
+.footer-shape-divider .shape-fill {
+  fill: #767B91;
+}
+
+#copyright {
+  margin-bottom: 1em;
+}
+
+.reseaux-sociaux img {
+  box-shadow: 0 8px 5px -2px rgb(0 0 0 / 20%);
+}
+.svg {
+  width: 40px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 2px ridge white;
+}

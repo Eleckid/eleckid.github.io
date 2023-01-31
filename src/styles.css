@@ -1,1 +1,112 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --beige: #B9A394;
+  --black: #312f2f;
+  --violet-clair: #C7CCDB;
+  --violet: #767B91;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/************************************* FONTS *********************************************/
+
+@font-face {
+  font-family: 'Poetsen';
+  src: url('src/assets/fonts/poetsenoneregular.ttf');
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('src/assets/fonts/coolvetica.ttf');
+}
+
+/********************* COULEURS DE SECTIONS **********************************************/
+
+.jet {
+  background-color: #312f2f;
+  color: white;
+}
+
+.periwinkle {
+  background-color: #C7CCDB;
+  color: white;
+}
+
+.rhythm {
+  background-color: var(--violet);
+  color: white;
+
+}
+
+/*********************************** TEXTE ***********************************************/
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+form,
+label,
+input,
+textarea {
+  font-family: 'Coolvetica', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.8em;
+  margin-bottom: 45px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  background: var(--beige);
+  height: 10px;
+  width: 100px;
+  border-color: var(--beige);
+  border-radius: 5px;
+  opacity: 1;
+  margin: 0.5em auto;
+}
+
+section {
+  min-height: 100vh;
+  padding: calc(100% / 20) calc(100% / 20);
+  position: relative;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 100%;
+}
