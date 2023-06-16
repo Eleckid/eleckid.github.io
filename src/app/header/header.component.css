@@ -23,4 +23,11 @@ header {
   header {
     margin-top: 0;
   }
+
+}
+
+@media screen and (max-width: 579px) {
+  .nom{
+    font-size: 4em;
+  }
 }
