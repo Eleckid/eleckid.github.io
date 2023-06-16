@@ -1,20 +1,10 @@
-.flex-row {
+.flex-container {
   display: flex;
   flex-direction: row;
 }
 
-#formations .flex-row {
-  justify-content: center;
-}
-
 .baseline {
   align-items: baseline;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #formations li {
@@ -46,3 +36,14 @@
 #formations li {
   font-size: 1.4em;
 }
+
+@media screen and (max-width: 575.98px) {
+    .baseline {
+    align-items: center;
+    }
+
+  .flex-container {
+    flex-direction: column;
+  }
+}
+

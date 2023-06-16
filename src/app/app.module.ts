@@ -12,6 +12,9 @@ import { FormationsComponent } from './formations/formations.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { AproposComponent } from './apropos/apropos.component';
+import { MylinksComponent } from './mylinks/mylinks.component';
+import { CompetencesComponent } from './competences/competences.component';
+import { RealisationsComponent } from './realisations/realisations.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { AproposComponent } from './apropos/apropos.component';
     FormationsComponent,
     ContactComponent,
     HeaderComponent,
-    AproposComponent
+    AproposComponent,
+    MylinksComponent,
+    CompetencesComponent,
+    RealisationsComponent
   ],
   imports: [
     BrowserModule,

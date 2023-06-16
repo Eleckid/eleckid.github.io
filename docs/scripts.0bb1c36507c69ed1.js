@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector("#navbar");window.addEventListener("scroll",function o(){document.body.scrollTop>100||document.documentElement.scrollTop>100?e.classList.add("sticky"):e.classList.remove("sticky")});const t=document.querySelector("#carouselExampleIndicators");new bootstrap.Carousel(t,{interval:2e3,touch:!1})});
