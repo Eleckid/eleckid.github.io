@@ -1,0 +1,717 @@
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide-Bold.eot');
+    src: local('☞VoxRoundWide-Bold'), local('VoxRoundWide-Bold'),
+        url('../fonts/VoxRoundWide-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Bold.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Bold.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide-Italic.eot');
+    src: local('☞VoxRoundWide-Italic'), local('VoxRoundWide-Italic'),
+        url('../fonts/VoxRoundWide-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Italic.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Italic.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound-Light.eot');
+    src: local('☞VoxRound-Light'), local('VoxRound-Light'),
+        url('../fonts/VoxRound-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Light.woff2') format('woff2'),
+        url('../fonts/VoxRound-Light.woff') format('woff'),
+        url('../fonts/VoxRound-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide-SemibdIt';
+    src: url('../fonts/VoxRoundWide-SemibdIt.eot');
+    src: local('☞VoxRoundWide-SemibdIt'), local('VoxRoundWide-SemibdIt'),
+        url('../fonts/VoxRoundWide-SemibdIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-SemibdIt.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-SemibdIt.woff') format('woff'),
+        url('../fonts/VoxRoundWide-SemibdIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRound-SemiboldIt';
+    src: url('../fonts/VoxRound-SemiboldIt.eot');
+    src: local('☞VoxRound-SemiboldIt'), local('VoxRound-SemiboldIt'),
+        url('../fonts/VoxRound-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-SemiboldIt.woff2') format('woff2'),
+        url('../fonts/VoxRound-SemiboldIt.woff') format('woff'),
+        url('../fonts/VoxRound-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide-Semibold.eot');
+    src: local('☞VoxRoundWide-Semibold'), local('VoxRoundWide-Semibold'),
+        url('../fonts/VoxRoundWide-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Semibold.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Semibold.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide-Light.eot');
+    src: local('☞VoxRoundWide-Light'), local('VoxRoundWide-Light'),
+        url('../fonts/VoxRoundWide-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Light.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Light.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound-BoldItalic.eot');
+    src: local('☞VoxRound-BoldItalic'), local('VoxRound-BoldItalic'),
+        url('../fonts/VoxRound-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-BoldItalic.woff2') format('woff2'),
+        url('../fonts/VoxRound-BoldItalic.woff') format('woff'),
+        url('../fonts/VoxRound-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide-MedIt';
+    src: url('../fonts/VoxRoundWide-MedIt.eot');
+    src: local('☞VoxRoundWide-MedIt'), local('VoxRoundWide-MedIt'),
+        url('../fonts/VoxRoundWide-MedIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-MedIt.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-MedIt.woff') format('woff'),
+        url('../fonts/VoxRoundWide-MedIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide-LightIt';
+    src: url('../fonts/VoxRoundWide-LightIt.eot');
+    src: local('☞VoxRoundWide-LightIt'), local('VoxRoundWide-LightIt'),
+        url('../fonts/VoxRoundWide-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-LightIt.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-LightIt.woff') format('woff'),
+        url('../fonts/VoxRoundWide-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound-Italic.eot');
+    src: local('☞VoxRound-Italic'), local('VoxRound-Italic'),
+        url('../fonts/VoxRound-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Italic.woff2') format('woff2'),
+        url('../fonts/VoxRound-Italic.woff') format('woff'),
+        url('../fonts/VoxRound-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound-Semibold.eot');
+    src: local('☞VoxRound-Semibold'), local('VoxRound-Semibold'),
+        url('../fonts/VoxRound-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Semibold.woff2') format('woff2'),
+        url('../fonts/VoxRound-Semibold.woff') format('woff'),
+        url('../fonts/VoxRound-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound.eot');
+    src: local('☞VoxRound'), local('VoxRound'),
+        url('../fonts/VoxRound.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound.woff2') format('woff2'),
+        url('../fonts/VoxRound.woff') format('woff'),
+        url('../fonts/VoxRound.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound-Bold.eot');
+    src: local('☞VoxRound-Bold'), local('VoxRound-Bold'),
+        url('../fonts/VoxRound-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Bold.woff2') format('woff2'),
+        url('../fonts/VoxRound-Bold.woff') format('woff'),
+        url('../fonts/VoxRound-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRound';
+    src: url('../fonts/VoxRound-Medium.eot');
+    src: local('☞VoxRound-Medium'), local('VoxRound-Medium'),
+        url('../fonts/VoxRound-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Medium.woff2') format('woff2'),
+        url('../fonts/VoxRound-Medium.woff') format('woff'),
+        url('../fonts/VoxRound-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide-Medium.eot');
+    src: local('☞VoxRoundWide-Medium'), local('VoxRoundWide-Medium'),
+        url('../fonts/VoxRoundWide-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Medium.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Medium.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRound-LightIt';
+    src: url('../fonts/VoxRound-LightIt.eot');
+    src: local('☞VoxRound-LightIt'), local('VoxRound-LightIt'),
+        url('../fonts/VoxRound-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-LightIt.woff2') format('woff2'),
+        url('../fonts/VoxRound-LightIt.woff') format('woff'),
+        url('../fonts/VoxRound-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRound-MediumIt';
+    src: url('../fonts/VoxRound-MediumIt.eot');
+    src: local('☞VoxRound-MediumIt'), local('VoxRound-MediumIt'),
+        url('../fonts/VoxRound-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-MediumIt.woff2') format('woff2'),
+        url('../fonts/VoxRound-MediumIt.woff') format('woff'),
+        url('../fonts/VoxRound-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide-BoldItalic.eot');
+    src: local('☞VoxRoundWide-BoldItalic'), local('VoxRoundWide-BoldItalic'),
+        url('../fonts/VoxRoundWide-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-BoldItalic.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-BoldItalic.woff') format('woff'),
+        url('../fonts/VoxRoundWide-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide';
+    src: url('../fonts/VoxRoundWide.eot');
+    src: local('☞VoxRoundWide'), local('VoxRoundWide'),
+        url('../fonts/VoxRoundWide.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide.woff') format('woff'),
+        url('../fonts/VoxRoundWide.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    --color-1: #90FF3F;
+    --color-2: #0C0F0A;
+    --color-3: #F3FFEB;
+    --color-4: #141810;
+    --color-5: #B0D0D3;
+    --gradient-1: linear-gradient(
+        245deg,
+        hsl(95deg 100% 62%) 0%,
+        hsl(103deg 96% 59%) 14%,
+        hsl(112deg 93% 57%) 24%,
+        hsl(121deg 91% 54%) 34%,
+        hsl(130deg 88% 51%) 42%,
+        hsl(138deg 92% 48%) 50%,
+        hsl(147deg 100% 46%) 58%,
+        hsl(149deg 100% 45%) 66%,
+        hsl(152deg 100% 44%) 74%,
+        hsl(154deg 100% 43%) 81%,
+        hsl(157deg 100% 42%) 88%,
+        hsl(159deg 100% 41%) 95%,
+        hsl(161deg 100% 41%) 100%
+      );
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+::marker { 
+    color: var(--color-1);
+    font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgba(0, 0, 0, 0.91)
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+  p,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  a,
+  form,
+  label,
+  input,
+  textarea,
+  button {
+    font-family: 'VoxRoundWide', sans-serif;
+    color: var(--color-3);
+}
+  
+section {
+    min-height: 100vh;
+    padding: calc(100% / 20) calc(100% / 10);
+    position: relative;
+}
+
+section:nth-of-type(odd){
+    background-color: var(--color-4);
+}
+
+#vanta-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: var(--color-3);
+    font-family: 'VoxRoundWide';
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 4px 4px 6px rgba(46, 153, 59, 1);
+
+  }
+
+h1:hover{
+    animation: shift 1s ease-in-out infinite alternate;
+    transform: skewX(0deg);
+    animation: focus-in-expand unset;
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.job {
+    color: var(--color-3);
+    text-align: center;
+    font-family: 'VoxRoundWide';
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-shadow: 3px 0px 15px rgb(12, 12, 12);
+  }
+
+body {
+    background-image: linear-gradient(to left bottom, #0c0f0a, #0c0e09, #0b0e09, #0b0d08, #0a0c08);
+    overflow-x: hidden;
+}
+
+a:link, a:visited {
+    color: var(--color-3);
+    text-decoration: none;
+}
+
+.cv-download {
+    font-family: 'VoxRound';
+    text-transform: uppercase;
+    margin: auto;
+    border: 3px outset var(--color-1);
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+
+.cv-download::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-1);
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.7s ease-in-out;
+  }
+
+.cv-download:hover {
+    cursor: pointer;
+    color: var(--color-2);
+    border: 3px inset var(--color-1);
+ }
+  
+.cv-download:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+}
+  
+hr {
+    width: 100px;
+    height: 5px;
+    background-image: var(--gradient-1);
+    border: none;
+    margin: 1.5rem auto;
+}
+
+footer {
+    text-align: center;
+    min-height: 80px;
+    padding: 1rem;
+    background-color: var(--color-2);
+    border-top: 2px solid;
+    font-size: 0.9rem;
+    border-image: var(--gradient-1) 1;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 3px 1px 2px rgba(12, 124, 89, 1);
+    text-transform: uppercase;
+}
+
+.lieu {
+    font-size: 0.95rem;
+    font-family: 'VoxRound';
+    font-weight: 600;
+    font-style: normal;
+}
+
+/************** BI ICONS *************************************************************/
+
+.bi-list, .bi-x, .bi-linkedin, .bi-envelope, .bi-github{
+    font-size: 30px;
+    color: var(--color-1);
+}
+
+.bi-linkedin, .bi-github {
+    font-size: 35px;
+    transition: 1s;
+}
+
+/************** NAV *************************************************************/
+
+#openNavButton, #closeNavButton {
+    background-color: unset;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 5px ridge var(--color-1);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+#closeNavButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hiddenNav {
+    display: none;
+}
+
+.openNav {
+    z-index: 100;
+    width: 350px;
+    height: 100vh;
+    background: rgba(12, 15, 10, 0.95);
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 2px rgba(46, 153, 59, 1);
+    font-size: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-right: 5px solid;
+    border-image: var(--gradient-1) 1;
+}
+
+#sideNav a {
+    font-weight: bold;
+}
+
+#sideNav a:hover, a.active {
+    transition: 1s ease-in-out;
+    color: var(--color-1);
+}
+
+.bi-download {
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2em auto 0 auto;
+    font-size: 1.2em;
+}
+
+.flex {
+    display: flex;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 50px;
+    width: 150px;
+}
+
+
+.social-links i:hover {
+    transition: 1s ease-in-out;
+    color: var(--color-3);
+}
+
+
+.slide-left-entrance {
+    animation: slideLeftEntrance 1s ease 0s 1 normal forwards;
+}
+
+.slide-left-exit {
+    animation: slideLeftExit 1s ease 0s 1 normal forwards;
+}
+
+/************************************************** FORMATIONS *********************************************/
+
+.certificate-container {
+    max-width: 800px;
+    background-color: var(--color-2);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51); 
+    margin: 0 auto 2em auto;    
+}
+
+.certificate-heading {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    border-bottom: 2px ridge;
+    border-image: var(--gradient-1) 1;
+}
+
+.certificate-date {
+    background-image: var(--gradient-1);
+    width: 80px;
+    height: 50px;
+    color: var(--color-2);
+    font-family: 'VoxRound';
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.95em;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.certificate-title-container {
+    margin-left: 1em;
+    
+}
+
+.certificate-title {
+    margin-bottom: 0.2em;
+}
+
+.certificate-place {
+    font-size: 0.8em;
+}
+
+/************************************************** COMPETENCES *********************************************/
+
+.skill-container {
+    padding: 1em;
+    background-color: var(--color-2);
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);    
+    min-width: 250px;
+    margin-bottom: 2em;
+    min-height: 250px;
+ }
+
+ .skill-container li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    font-size: 0.8em;
+ }
+
+ .skill-heading {
+    padding: 0.2em;
+    margin: 1em;
+    text-align: center;
+    background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+ }
+
+ .justify-content-evenly {
+    justify-content: space-evenly;
+ }
+
+
+ .skill-container:hover {
+    transition: 0.1s ease-in-out;
+    border-bottom: 3px solid;
+    border-image: var(--gradient-1) 1;
+ }
+
+@keyframes slideLeftEntrance {
+	0% {
+		opacity: 0;
+		transform: translateX(-300px);
+	}
+
+	100% {
+		opacity: 0.95;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideLeftExit {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+}
+
+@keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+       transform: skewX(0deg);
+    }
+ 
+    41% {
+       transform: skewX(10deg);
+    }
+ 
+    42% {
+       transform: skewX(-10deg);
+    }
+ 
+    59% {
+       transform: skewX(40deg) skewY(10deg);
+    }
+ 
+    60% {
+       transform: skewX(-40deg) skewY(-10deg);
+    }
+ 
+    63% {
+       transform: skewX(10deg) skewY(-5deg);
+    }
+ 
+    70% {
+       transform: skewX(-50deg) skewY(-20deg);
+    }
+ 
+    71% {
+       transform: skewX(10deg) skewY(-10deg);
+    }
+ }
+
+ .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.rectangle {
+    align-items: center;
+    width: 250px;
+    height: 125px;
+    background-color: var(--color-2);
+    border-bottom: 3px ridge;
+    border-image: var(--gradient-1) 1;
+    justify-content: center;
+    padding: 0.5em;
+    font-size: 0.8em;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
+    margin-bottom: 1em;
+}
+  
