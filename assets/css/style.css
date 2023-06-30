@@ -309,6 +309,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
+    
 }
 
   p,
@@ -333,6 +334,15 @@ section {
     padding: calc(100% / 20) calc(100% / 10);
     position: relative;
 }
+
+.section-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 3px 1px 2px rgba(12, 124, 89, 1);
+    text-transform: uppercase;
+}
+
 
 section:nth-of-type(odd){
     background-color: var(--color-4);
@@ -467,6 +477,14 @@ hr {
     margin: 1.5rem auto;
 }
 
+.lieu {
+    font-size: 0.95rem;
+    font-family: 'VoxRound';
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 footer {
     text-align: center;
     min-height: 80px;
@@ -478,20 +496,7 @@ footer {
        border-image: var(--gradient-1) 1;
 }
 
-.section-heading {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-shadow: 3px 1px 2px rgba(12, 124, 89, 1);
-    text-transform: uppercase;
-}
 
-.lieu {
-    font-size: 0.95rem;
-    font-family: 'VoxRound';
-    font-weight: 600;
-    font-style: normal;
-}
 
 /************** BI ICONS *************************************************************/
 
@@ -506,6 +511,11 @@ footer {
     -o-transition: 1s;
     transition: 1s;
 }
+
+.bi-download {
+    margin-right: 5px;
+}
+
 
 /************** NAV *************************************************************/
 
@@ -572,9 +582,6 @@ footer {
     color: var(--color-1);
 }
 
-.bi-download {
-    margin-right: 5px;
-}
 
 .container {
     max-width: 1200px;
@@ -899,7 +906,15 @@ footer {
         font-size: 4rem;
     }
 
-    h3 {
-        font-size: 1.2rem;
+    .section-heading h2, h3.timeline-title {
+        font-size: 1.2em;
+    }
+
+    h3.certificate-title {
+        font-size: 0.8em;
+    }
+
+    .timeline-item ul li {
+        font-size: 0.8em;
     }
 }
