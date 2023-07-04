@@ -21,10 +21,10 @@ h3.timeline-title {
     background-color: var(--color-2);
     color: var(--color-3);
     text-transform: uppercase;
-    font-family: 'VoxRoundWide';
     font-weight: bold;
     font-style: normal;
     border-image: var(--gradient-1) 1;
+    font-family: 'VoxRoundWide-Bold', sans-serif;
 }
 
 h3.timeline-title:hover{
@@ -96,8 +96,7 @@ h3.timeline-title:hover{
 
 /*----- TIMELINE CONTENT -----*/
 .timeline-content {
-  padding-bottom: 40px;
-  
+  padding-bottom: 1em;
 }
 
 .timeline-content ul {
@@ -107,7 +106,7 @@ h3.timeline-title:hover{
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px 0px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(173, 171, 171, 0.2) 0px -3px 0px 0px inset;
   border-bottom: 3px ridge;
   border-image: var(--gradient-1) 1;
-  background-color: #101010;
+  background-color: var(--color-5);
   border-radius: 2px;
 }
 
@@ -118,6 +117,9 @@ h3.timeline-title:hover{
 .timeline-content ul li {
   line-height: 1.8;
   list-style: square inside;
+  padding-left: 0.3em;
+  text-indent: -0.3em;
+  font-size: 0.9em;
 }
 
 /*----- TIMELINE PERIOD -----*/

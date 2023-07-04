@@ -6,150 +6,6 @@
 */
 
 @font-face {
-    font-family: 'VoxRoundWide';
-    src: url('../fonts/VoxRoundWide-Bold.eot');
-    src: local('☞VoxRoundWide-Bold'), local('VoxRoundWide-Bold'),
-        url('../fonts/VoxRoundWide-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-Bold.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-Bold.woff') format('woff'),
-        url('../fonts/VoxRoundWide-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide';
-    src: url('../fonts/VoxRoundWide-Italic.eot');
-    src: local('☞VoxRoundWide-Italic'), local('VoxRoundWide-Italic'),
-        url('../fonts/VoxRoundWide-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-Italic.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-Italic.woff') format('woff'),
-        url('../fonts/VoxRoundWide-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRound';
-    src: url('../fonts/VoxRound-Light.eot');
-    src: local('☞VoxRound-Light'), local('VoxRound-Light'),
-        url('../fonts/VoxRound-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-Light.woff2') format('woff2'),
-        url('../fonts/VoxRound-Light.woff') format('woff'),
-        url('../fonts/VoxRound-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide-SemibdIt';
-    src: url('../fonts/VoxRoundWide-SemibdIt.eot');
-    src: local('☞VoxRoundWide-SemibdIt'), local('VoxRoundWide-SemibdIt'),
-        url('../fonts/VoxRoundWide-SemibdIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-SemibdIt.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-SemibdIt.woff') format('woff'),
-        url('../fonts/VoxRoundWide-SemibdIt.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRound-SemiboldIt';
-    src: url('../fonts/VoxRound-SemiboldIt.eot');
-    src: local('☞VoxRound-SemiboldIt'), local('VoxRound-SemiboldIt'),
-        url('../fonts/VoxRound-SemiboldIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-SemiboldIt.woff2') format('woff2'),
-        url('../fonts/VoxRound-SemiboldIt.woff') format('woff'),
-        url('../fonts/VoxRound-SemiboldIt.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide';
-    src: url('../fonts/VoxRoundWide-Semibold.eot');
-    src: local('☞VoxRoundWide-Semibold'), local('VoxRoundWide-Semibold'),
-        url('../fonts/VoxRoundWide-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-Semibold.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-Semibold.woff') format('woff'),
-        url('../fonts/VoxRoundWide-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide';
-    src: url('../fonts/VoxRoundWide-Light.eot');
-    src: local('☞VoxRoundWide-Light'), local('VoxRoundWide-Light'),
-        url('../fonts/VoxRoundWide-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-Light.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-Light.woff') format('woff'),
-        url('../fonts/VoxRoundWide-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VoxRound';
-    src: url('../fonts/VoxRound-BoldItalic.eot');
-    src: local('☞VoxRound-BoldItalic'), local('VoxRound-BoldItalic'),
-        url('../fonts/VoxRound-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-BoldItalic.woff2') format('woff2'),
-        url('../fonts/VoxRound-BoldItalic.woff') format('woff'),
-        url('../fonts/VoxRound-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide-MedIt';
-    src: url('../fonts/VoxRoundWide-MedIt.eot');
-    src: local('☞VoxRoundWide-MedIt'), local('VoxRoundWide-MedIt'),
-        url('../fonts/VoxRoundWide-MedIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-MedIt.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-MedIt.woff') format('woff'),
-        url('../fonts/VoxRoundWide-MedIt.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide-LightIt';
-    src: url('../fonts/VoxRoundWide-LightIt.eot');
-    src: local('☞VoxRoundWide-LightIt'), local('VoxRoundWide-LightIt'),
-        url('../fonts/VoxRoundWide-LightIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-LightIt.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-LightIt.woff') format('woff'),
-        url('../fonts/VoxRoundWide-LightIt.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRound';
-    src: url('../fonts/VoxRound-Italic.eot');
-    src: local('☞VoxRound-Italic'), local('VoxRound-Italic'),
-        url('../fonts/VoxRound-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-Italic.woff2') format('woff2'),
-        url('../fonts/VoxRound-Italic.woff') format('woff'),
-        url('../fonts/VoxRound-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRound';
-    src: url('../fonts/VoxRound-Semibold.eot');
-    src: local('☞VoxRound-Semibold'), local('VoxRound-Semibold'),
-        url('../fonts/VoxRound-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-Semibold.woff2') format('woff2'),
-        url('../fonts/VoxRound-Semibold.woff') format('woff'),
-        url('../fonts/VoxRound-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'VoxRound';
     src: url('../fonts/VoxRound.eot');
     src: local('☞VoxRound'), local('VoxRound'),
@@ -162,7 +18,32 @@
 }
 
 @font-face {
-    font-family: 'VoxRound';
+    font-family: 'VoxRound-Light';
+    src: url('../fonts/VoxRound-Light.eot');
+    src: local('☞VoxRound-Light'), local('VoxRound-Light'),
+        url('../fonts/VoxRound-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Light.woff2') format('woff2'),
+        url('../fonts/VoxRound-Light.woff') format('woff'),
+        url('../fonts/VoxRound-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRound-Medium';
+    src: url('../fonts/VoxRound-Medium.eot');
+    src: local('☞VoxRound-Medium'), local('VoxRound-Medium'),
+        url('../fonts/VoxRound-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Medium.woff2') format('woff2'),
+        url('../fonts/VoxRound-Medium.woff') format('woff'),
+        url('../fonts/VoxRound-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'VoxRound-Bold';
     src: url('../fonts/VoxRound-Bold.eot');
     src: local('☞VoxRound-Bold'), local('VoxRound-Bold'),
         url('../fonts/VoxRound-Bold.eot?#iefix') format('embedded-opentype'),
@@ -174,64 +55,18 @@
 }
 
 @font-face {
-    font-family: 'VoxRound';
-    src: url('../fonts/VoxRound-Medium.eot');
-    src: local('☞VoxRound-Medium'), local('VoxRound-Medium'),
-        url('../fonts/VoxRound-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-Medium.woff2') format('woff2'),
-        url('../fonts/VoxRound-Medium.woff') format('woff'),
-        url('../fonts/VoxRound-Medium.ttf') format('truetype');
-    font-weight: 500;
+    font-family: 'VoxRound-Semibold';
+    src: url('../fonts/VoxRound-Semibold.eot');
+    src: local('☞VoxRound-Semibold'), local('VoxRound-Semibold'),
+        url('../fonts/VoxRound-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRound-Semibold.woff2') format('woff2'),
+        url('../fonts/VoxRound-Semibold.woff') format('woff'),
+        url('../fonts/VoxRound-Semibold.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'VoxRoundWide';
-    src: url('../fonts/VoxRoundWide-Medium.eot');
-    src: local('☞VoxRoundWide-Medium'), local('VoxRoundWide-Medium'),
-        url('../fonts/VoxRoundWide-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-Medium.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-Medium.woff') format('woff'),
-        url('../fonts/VoxRoundWide-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'VoxRound-LightIt';
-    src: url('../fonts/VoxRound-LightIt.eot');
-    src: local('☞VoxRound-LightIt'), local('VoxRound-LightIt'),
-        url('../fonts/VoxRound-LightIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-LightIt.woff2') format('woff2'),
-        url('../fonts/VoxRound-LightIt.woff') format('woff'),
-        url('../fonts/VoxRound-LightIt.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRound-MediumIt';
-    src: url('../fonts/VoxRound-MediumIt.eot');
-    src: local('☞VoxRound-MediumIt'), local('VoxRound-MediumIt'),
-        url('../fonts/VoxRound-MediumIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRound-MediumIt.woff2') format('woff2'),
-        url('../fonts/VoxRound-MediumIt.woff') format('woff'),
-        url('../fonts/VoxRound-MediumIt.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'VoxRoundWide';
-    src: url('../fonts/VoxRoundWide-BoldItalic.eot');
-    src: local('☞VoxRoundWide-BoldItalic'), local('VoxRoundWide-BoldItalic'),
-        url('../fonts/VoxRoundWide-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/VoxRoundWide-BoldItalic.woff2') format('woff2'),
-        url('../fonts/VoxRoundWide-BoldItalic.woff') format('woff'),
-        url('../fonts/VoxRoundWide-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
 
 @font-face {
     font-family: 'VoxRoundWide';
@@ -245,13 +80,77 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'VoxRoundWide-Light';
+    src: url('../fonts/VoxRoundWide-Light.eot');
+    src: local('☞VoxRoundWide-Light'), local('VoxRoundWide-Light'),
+        url('../fonts/VoxRoundWide-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Light.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Light.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'VoxRoundWide-Medium';
+    src: url('../fonts/VoxRoundWide-Medium.eot');
+    src: local('☞VoxRoundWide-Medium'), local('VoxRoundWide-Medium'),
+        url('../fonts/VoxRoundWide-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Medium.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Medium.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VoxRoundWide-Italic';
+    src: url('../fonts/VoxRoundWide-Italic.eot');
+    src: local('☞VoxRoundWide-Italic'), local('VoxRoundWide-Italic'),
+        url('../fonts/VoxRoundWide-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Italic.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Italic.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'VoxRoundWide-Semibold';
+    src: url('../fonts/VoxRoundWide-Semibold.eot');
+    src: local('☞VoxRoundWide-Semibold'), local('VoxRoundWide-Semibold'),
+        url('../fonts/VoxRoundWide-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Semibold.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Semibold.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'VoxRoundWide-Bold';
+    src: url('../fonts/VoxRoundWide-Bold.eot');
+    src: local('☞VoxRoundWide-Bold'), local('VoxRoundWide-Bold'),
+        url('../fonts/VoxRoundWide-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VoxRoundWide-Bold.woff2') format('woff2'),
+        url('../fonts/VoxRoundWide-Bold.woff') format('woff'),
+        url('../fonts/VoxRoundWide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 :root {
     --color-1: #90FF3F;
     --color-2: #0C0F0A;
     --color-3: #F3FFEB;
     --color-4: #141810;
-    --color-5: #B0D0D3;
+    --color-5: #11150e;;
     --gradient-1: linear-gradient(
         245deg,
         hsl(95deg 100% 62%) 0%,
@@ -314,7 +213,7 @@ html {
 
 h1 {
     color: var(--color-3);
-    font-family: 'VoxRoundWide';
+    font-family: 'VoxRoundWide-Bold', sans-serif;
     font-size: 5rem;
     text-transform: uppercase;
     text-align: center;
@@ -368,6 +267,7 @@ section {
     font-weight: bold;
     text-shadow: 3px 1px 2px rgba(12, 124, 89, 1);
     text-transform: uppercase;
+    font-family: 'VoxRoundWide-Bold', sans-serif;
 }
 
 
@@ -424,9 +324,7 @@ section:nth-of-type(odd){
 .job {
     color: var(--color-3);
     text-align: center;
-    font-family: 'VoxRoundWide';
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'VoxRound-Light', sans-serif;
     text-transform: uppercase;
     margin-bottom: 2rem;
     text-shadow: 3px 0px 15px rgb(12, 12, 12);
@@ -478,7 +376,6 @@ body {
 .cv-download:hover {
     cursor: pointer;
     color: var(--color-2);
-    border: 3px inset var(--color-1);
  }
   
 .cv-download:hover::before {
@@ -498,13 +395,14 @@ hr {
     margin: 1.5rem auto;
 }
 
-.lieu {
-    font-size: 0.95rem;
-    font-family: 'VoxRound';
-    font-weight: 600;
-    font-style: normal;
+span.lieu {
+    font-size: 12px;
+    font-family: 'VoxRound-Light';
 }
 
+li {
+    font-family: 'VoxRound-Light';
+}
 
 footer {
     text-align: center;
@@ -515,7 +413,7 @@ footer {
     font-size: 0.9rem;
     -o-border-image: var(--gradient-1) 1;
        border-image: var(--gradient-1) 1;
-    font-weight: bold;
+    font-family: 'VoxRound-Light' sans-serif;
     text-transform: uppercase;
 }
 
@@ -527,7 +425,7 @@ footer p:first-of-type {
 
 /************** BI ICONS *************************************************************/
 
-.bi-list, .bi-x, .bi-linkedin, .bi-envelope, .bi-github{
+.bi-list, .bi-x, .bi-linkedin, .bi-envelope, .bi-github, .bi-controller, .bi-currency-bitcoin, .bi-book-half, .bi-pc-display{
     font-size: 30px;
     color: var(--color-1);
 }
@@ -541,6 +439,33 @@ footer p:first-of-type {
 
 .bi-download {
     margin-right: 5px;
+}
+
+.hobbies {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.hobbies-square {
+    background-color: var(--color-5);
+    padding: 1em;
+    width: 200px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+    border-bottom: 3px solid;
+}
+
+.hobbies-square:hover {
+    border-bottom: 3px solid;
+    border-image: var(--gradient-1) 1;
+    transition: 1s ease-in-out;
+    
+}
+.hobbies i.bi {
+    font-size: 40px;
 }
 
 
@@ -631,16 +556,6 @@ footer p:first-of-type {
 }
 
 
-.slide-left-entrance {
-    -webkit-animation: slideLeftEntrance 1s ease 0s 1 normal forwards;
-            animation: slideLeftEntrance 1s ease 0s 1 normal forwards;
-}
-
-.slide-left-exit {
-    -webkit-animation: slideLeftExit 1s ease 0s 1 normal forwards;
-            animation: slideLeftExit 1s ease 0s 1 normal forwards;
-}
-
 /************************************************** FORMATIONS *********************************************/
 
 .certificate-container {
@@ -694,10 +609,13 @@ footer p:first-of-type {
 
 .certificate-title {
     margin-bottom: 0.2em;
+    font-family: 'VoxRoundWide-Bold';
+    text-transform: uppercase;
 }
 
 .certificate-place {
     font-size: 0.8em;
+    font-family: 'VoxRound-Light';
 }
 
 /************************************************** COMPETENCES *********************************************/
@@ -710,7 +628,19 @@ footer p:first-of-type {
             box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);    
     min-width: 250px;
     margin-bottom: 2em;
-    min-height: 250px;
+ }
+
+ 
+ .skill-heading {
+    padding: 0.2em;
+    margin: 1em;
+    text-align: center;
+    background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-family: 'VoxRound';
+    font-weight: bold;
  }
 
  .skill-container li {
@@ -721,14 +651,6 @@ footer p:first-of-type {
     font-size: 0.8em;
  }
 
- .skill-heading {
-    padding: 0.2em;
-    margin: 1em;
-    text-align: center;
-    background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
- }
 
  .skill-container:hover {
     -webkit-transition: 0.1s ease-in-out;
@@ -747,7 +669,7 @@ footer p:first-of-type {
             align-items: center;
     width: 250px;
     height: 125px;
-    background-color: var(--color-2);
+    background-color: var(--color-5);
     border-bottom: 3px ridge;
     -o-border-image: var(--gradient-1) 1;
        border-image: var(--gradient-1) 1;
@@ -760,6 +682,18 @@ footer p:first-of-type {
     -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
             box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
     margin-bottom: 1em;
+}
+
+/**************** ANIMATIONS *********************************/
+
+.slide-left-entrance {
+    -webkit-animation: slideLeftEntrance 1s ease 0s 1 normal forwards;
+            animation: slideLeftEntrance 1s ease 0s 1 normal forwards;
+}
+
+.slide-left-exit {
+    -webkit-animation: slideLeftExit 1s ease 0s 1 normal forwards;
+            animation: slideLeftExit 1s ease 0s 1 normal forwards;
 }
 
 @-webkit-keyframes slideLeftEntrance {
@@ -902,6 +836,7 @@ footer p:first-of-type {
     }
  }
 
+ /**************** MEDIA QUERIES *********************************/
 
 @media only screen and (max-width: 768px) {
     h1 {
@@ -921,6 +856,14 @@ footer p:first-of-type {
     }
 
     .openNav{
-        width: 250px;
+        width: 270px;
+    }
+
+    .hobbies-square {
+        margin-bottom: 1em;
+    }
+
+    .skill-container {
+        width: 10px;
     }
 }
