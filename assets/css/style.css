@@ -209,6 +209,7 @@ html {
     scroll-behavior: smooth;
     height: 100%;
     font-size: calc(12px + 0.390625vw);
+    overflow-x: hidden;
 }
 
 h1 {
