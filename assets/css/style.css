@@ -456,12 +456,12 @@ footer p:first-of-type {
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.51);
     text-transform: uppercase;
     transition: 1s ease-in-out;
-    border-bottom: 3px solid;
+    /* border-bottom: 3px solid; */
 }
 
 .hobbies-square:hover {
     border-bottom: 3px solid;
-    border-image: var(--gradient-1) 1;
+    /* border-image: var(--gradient-1) 1; */
     transition: 1s ease-in-out;
     
 }
@@ -868,3 +868,83 @@ footer p:first-of-type {
         width: 10px;
     }
 }
+
+.magic-border:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: calc(2px/ -1);
+    left: calc(2px/ -1);
+    background: linear-gradient(to right, var(--color-1) 0%, var(--color-1) 100%), linear-gradient(to top, var(--color-1), transparent 50%), linear-gradient(to top, var(--color-1) 50%, transparent 50%), linear-gradient(to right, var(--color-1) 0%, var(--color-1) 100%), linear-gradient(to left, var(--color-1) 0%, var(--color-1) 100%);
+    background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
+    background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    transition: transform 0.3s ease-in-out, background-position 0.3s ease-in-out, background-size 0.3s ease-in-out;
+    transform: scaleX(0) rotate(0deg);
+    transition-delay: 0.6s, 0.3s, 0s;
+  }
+  .magic-border:hover:before {
+    background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
+    background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+    transform: scaleX(1) rotate(0deg);
+    transition-delay: 0s, 0.3s, 0.6s;
+  }
+  .magic-border:nth-of-type(2) {
+    position: relative;
+  }
+  .magic-border:nth-of-type(2):before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    top: calc(4px/ -1);
+    left: calc(4px/ -1);
+    background: var(--gradient-1);
+    background-size: 100% 4px, 4px 200%, 4px 200%, 0% 4px, 0% 4px;
+    background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out, background-size 0.2s ease-in-out;
+    transform: scaleX(0) rotate(180deg);
+    transition-delay: 0.4s, 0.2s, 0s;
+  }
+  .magic-border:nth-of-type(2):hover:before {
+    background-size: 200% 4px, 4px 400%, 4px 400%, 55% 4px, 55% 4px;
+    background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+    transform: scaleX(1) rotate(180deg);
+    transition-delay: 0s, 0.2s, 0.4s;
+  }
+  .magic-border:nth-of-type(3) {
+    position: relative;
+    align-self: flex-end;
+  }
+  .magic-border:nth-of-type(3):before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    top: calc(10px/ -1);
+    left: calc(10px/ -1);
+    -webkit-mask: var(), linear-gradient(to top, #000 50%, transparent 50%), linear-gradient(to top, #000 50%, transparent 50%), linear-gradient(to right, #000 0%, #000 100%), linear-gradient(to left, #000 0%, #000 100%);
+            mask: linear-gradient(to right, #000 0%, #000 100%), linear-gradient(to top, #000 50%, transparent 50%), linear-gradient(to top, #000 50%, transparent 50%), linear-gradient(to right, #000 0%, #000 100%), linear-gradient(to left, #000 0%, #000 100%);
+    -webkit-mask-size: 100% 10px, 10px 200%, 10px 200%, 0% 10px, 0% 10px;
+            mask-size: 100% 10px, 10px 200%, 10px 200%, 0% 10px, 0% 10px;
+    -webkit-mask-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+            mask-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+    -webkit-mask-repeat: no-repeat, no-repeat;
+            mask-repeat: no-repeat, no-repeat;
+    transition: transform 0.4s ease-in-out, -webkit-mask-position 0.4s ease-in-out, -webkit-mask-size 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, mask-position 0.4s ease-in-out, mask-size 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, mask-position 0.4s ease-in-out, mask-size 0.4s ease-in-out, -webkit-mask-position 0.4s ease-in-out, -webkit-mask-size 0.4s ease-in-out;
+    transform: scaleX(0) rotate(0deg);
+    transition-delay: 0.8s, 0.4s, 0s;
+    background: var(--gradient-1);
+  }
+  .magic-border:nth-of-type(3):hover:before {
+    -webkit-mask-size: 200% 10px, 10px 400%, 10px 400%, 55% 10px, 55% 10px;
+            mask-size: 200% 10px, 10px 400%, 10px 400%, 55% 10px, 55% 10px;
+    -webkit-mask-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+            mask-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+    transform: scaleX(1) rotate(0deg);
+    transition-delay: 0s, 0.4s, 0.8s;
+  }
