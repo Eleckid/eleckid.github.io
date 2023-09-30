@@ -837,6 +837,29 @@ footer p:first-of-type {
     }
  }
 
+ .cursor-effect {
+    display: none
+}
+
+@media (any-pointer: fine) {
+    .cursor-effect {
+        position:fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        display: block;
+        pointer-events: none;
+        opacity: 0
+    }
+
+    .cursor-effect-inner {
+        fill: rgba(3, 255, 3, 0.22);
+        stroke: var(--color-1);
+        stroke-width: 3px
+    }
+}
+
+
  /**************** MEDIA QUERIES *********************************/
 
 @media only screen and (max-width: 768px) {
@@ -950,3 +973,4 @@ footer p:first-of-type {
   }
 
   /* https://codepen.io/cobra_winfrey/pen/mdJeqZb */
+
